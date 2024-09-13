@@ -7,15 +7,13 @@ If you have found this repo through google, please note this is usually a refact
 If you don't have Java installed:
 
 1. Install Java: `brew install corretto` or download it [here](https://docs.aws.amazon.com/corretto/)
-2. Set it as your default JVM: `export JAVA_HOME=$(/usr/libexec/java_home -v 22)`
-
+2. Set it as your default JVM: `export JAVA_HOME=$(/usr/libexec/java_home -v 22)`  
   i. Check it was set properly: `echo $JAVA_HOME` should output /Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home
 
 Once you have Java installed:
 1. Clone this repository: `git clone https://github.com/CodelyTV/java-basic-skeleton`.
-2. Execute some [Gradle lifecycle tasks](https://docs.gradle.org/current/userguide/java_plugin.html#lifecycle_tasks) in order to check everything is OK:
-
-    i. Create [the project JAR](https://docs.gradle.org/current/userguide/java_plugin.html#sec:jar): `make build`
+2. Execute some [Gradle lifecycle tasks](https://docs.gradle.org/current/userguide/java_plugin.html#lifecycle_tasks) in order to check everything is OK:  
+    i. Create [the project JAR](https://docs.gradle.org/current/userguide/java_plugin.html#sec:jar): `make build`  
     ii. Run the tests and plugins verification tasks: `make test`
 3. Start developing based off the prompt below.
 
