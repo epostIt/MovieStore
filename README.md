@@ -5,9 +5,10 @@ If you have found this repo through google, please note this is usually a refact
 
 ## 🏁 How To Start
 If you don't have Java installed:
-    1. Install Java: `brew install corretto` or download it [here](https://docs.aws.amazon.com/corretto/)
-    2. Set it as your default JVM: `export JAVA_HOME=$(/usr/libexec/java_home -v 22)`
-      1. Check it was set properly: `echo $JAVA_HOME` should output /Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home
+
+1. Install Java: `brew install corretto` or download it [here](https://docs.aws.amazon.com/corretto/)
+2. Set it as your default JVM: `export JAVA_HOME=$(/usr/libexec/java_home -v 22)`
+  i. Check it was set properly: `echo $JAVA_HOME` should output /Library/Java/JavaVirtualMachines/amazon-corretto-22.jdk/Contents/Home
 
 Once you have Java installed:
 1. Clone this repository: `git clone https://github.com/CodelyTV/java-basic-skeleton`.
